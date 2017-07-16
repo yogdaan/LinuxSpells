@@ -115,7 +115,7 @@ This spell is one of the oldest spells known to wizarding society.
 
 Accio 'gets' the object and so does 'wget' in the linux world.
 
-Usage : $ accio LINK
+Usage : `$ accio LINK`
 
 Cheers!
 
