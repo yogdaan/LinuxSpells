@@ -18,28 +18,26 @@ fs.readdir(cwd, function(err, items) {
     for (var i=0; i<items.length; i++) {
 
 
-        if(!path.extname(items[i])){
-
-            process.stdout.write(chalk.blue.bold(items[i] + "  "));
-        }
-        else if(checkImg(path.extname(items[i]))){
-            process.stdout.write(chalk.magenta.bold(items[i] + "  "));
-        }
-        else if(checkZip(path.extname(items[i]))){
-            process.stdout.write(chalk.red.bold(items[i] + "  "));
-        }
-        else if(checkCode(path.extname(items[i]))){
-            process.stdout.write(chalk.yellow.bold(items[i] + "  "));
-        }
-        else{
-            process.stdout.write(items[i] + "  ");
-        }
-
-        length = length + items[i].length + 2;
-
-        if(length % columns >= (columns - 10)){
+        if(i % 3 == 0 && i != 0){
             console.log('');
         }
+        if(!path.extname(items[i])){
+
+            process.stdout.write(chalk.blue.bold(items[i] + "\t"));
+        }
+        else if(checkImg(path.extname(items[i]))){
+            process.stdout.write(chalk.magenta.bold(items[i] + "\t"));
+        }
+        else if(checkZip(path.extname(items[i]))){
+            process.stdout.write(chalk.red.bold(items[i] + "\t"));
+        }
+        else if(checkCode(path.extname(items[i]))){
+            process.stdout.write(chalk.yellow.bold(items[i] + "\t"));
+        }
+        else{
+            process.stdout.write(items[i] + "\t");
+        }
+
     }
 
     console.log('');
