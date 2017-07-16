@@ -8,7 +8,7 @@ var fs = require('fs-extra');
 
 var bannerHeading = "Linux  Spells"
 var newSpell = "";
-var spells = ['lumos','obliviate','geminio','legilimens','mobiliarbus','avada-kedavra'];
+var spells = ['lumos','obliviate','geminio','legilimens','mobiliarbus','avada-kedavra','accio'];
 
 if(process.argv.length != 3){
 
@@ -27,6 +27,7 @@ if(process.argv.length != 3){
 			console.log(chalk.magentaBright.bold('\t4.\tlegilimens'));
 			console.log(chalk.redBright.bold('\t5.\tmobiliarbus'));
 			console.log(chalk.greenBright.bold('\t6.\tavada-kedavra'));
+			console.log(chalk.yellowBright.bold('\t7.\taccio'));
 			console.log('');
 		}
 	});
@@ -50,6 +51,9 @@ else{
 		}
 		else if(newSpell === "mobiliarbus"){
 			mobiliarbus();
+		}
+		else if(newSpell === "accio"){
+			accio();
 		}
 		else{
 			avada_kedavra();
@@ -198,6 +202,28 @@ function avada_kedavra(){
 			console.log(chalk.greenBright(data));
 			console.log('');
 			fs.readFile(path.resolve(__dirname,'spells/avada-kedavra.txt'),function(err,data){
+				if(err){
+					console.log(err);
+				}
+				else{
+					console.log(chalk.white(data));
+				}
+			});
+		}
+	});
+}
+
+function accio(){
+	var head = "accio";
+
+	figlet(head,{font:"Standard"},function(err,data){
+		if(err){
+			return console.log(chalk.red(err));
+		}
+		else{
+			console.log(chalk.blueBright(data));
+			console.log('');
+			fs.readFile(path.resolve(__dirname,'spells/accio.txt'),function(err,data){
 				if(err){
 					console.log(err);
 				}

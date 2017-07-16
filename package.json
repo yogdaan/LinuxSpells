@@ -1,6 +1,6 @@
 {
   "name": "linuxspells",
-  "version": "0.7.0",
+  "version": "0.8.1",
   "description": "Potter-ify your Linux Experience!",
   "main": "spells.js",
   "bin": {
@@ -10,6 +10,7 @@
     "legilimens": "legilimens.js",
     "mobiliarbus": "mobiliarbus.js",
     "avada-kedavra": "avada kedavra.js",
+    "accio":"accio.js",
     "spells": "spells.js"
   },
   "dependencies": {
