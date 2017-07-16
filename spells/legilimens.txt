@@ -1,0 +1,9 @@
+Legilemency or legilimens is the act of magically navigating through many layers of a person's mind and correctly interpreting one's findings. Muggles often call this as 'mind-reading'.
+
+It reads what is beneath the flesh of the person in wizard world, and somewhat 'cat' does the same in linux world. It reads the contents hidden beneath the flesh of a file :P
+
+Usage : $ legilimens filename
+
+Cheers!
+
+author: gabru-md

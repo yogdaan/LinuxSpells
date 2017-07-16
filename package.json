@@ -1,0 +1,47 @@
+{
+  "name": "linuxspells",
+  "version": "0.6.9",
+  "description": "Potter-ify your Linux Experience!",
+  "main": "spells.js",
+  "bin": {
+    "lumos": "lumos.js",
+    "obliviate": "obliviate.js",
+    "geminio": "geminio.js",
+    "legilimens": "legilimens.js",
+    "mobiliarbus": "mobiliarbus.js",
+    "avada-kedavra": "avada kedavra.js",
+    "spells" : "spells.js"
+  },
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "figlet": "^1.2.0",
+    "fs-extra": "^4.0.0",
+    "inquirer": "^3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabru-md/LinuxSpells.git"
+  },
+  "keywords": [
+    "potter",
+    "harry",
+    "harry-potter",
+    "spells",
+    "linux",
+    "spells-linux",
+    "potterify",
+    "experience",
+    "harry-linux",
+    "spells-harry"
+  ],
+  "author": "Manish Devgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabru-md/LinuxSpells/issues"
+  },
+  "homepage": "https://github.com/gabru-md/LinuxSpells#readme"
+}

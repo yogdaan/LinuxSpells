@@ -1,0 +1,9 @@
+Originating from Harry Potter and the Chamber of Secrets, Obliviate is a term meaning 'forget'. Obliviate is a memory charm, resulting in the erasure of the recipients memory. One's memory vanishes as soon as this charm is casted.
+
+It makes one forgetful of things or memories and so does the 'clear' command in linux terminal, It clears the output screen or 'obliviates' it :P
+
+Usage : $ obliviate
+
+Cheers!
+
+author: gabru-md

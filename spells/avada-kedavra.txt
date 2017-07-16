@@ -1,0 +1,9 @@
+The Killing Curse (Avada Kedavra) is a tool of the Dark Arts and one of the three Unforgivable Curses. It is one of the most powerful and sinister spells known to wizardkind. When cast successfully on a living person or creature the curse causes instantaneous and painless death, without any signs of violence on body.
+
+It 'deletes' the person or creature from the living world, poof! And so does the 'rm' command in linux world. 'rm' causes painless death of files and folders :P
+
+Usage : $ avada-kedavra filename
+
+Cheers!
+
+author: gabru-md 

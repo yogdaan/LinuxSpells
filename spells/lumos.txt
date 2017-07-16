@@ -1,0 +1,13 @@
+Lumos is the incantation to a charm that can be used to produce a flash of bright white light from the tip of the wand.
+This light can be thrown far off of the wand, illuminating the surrounding area for several minutes
+after its initial casting before darkening once more.
+
+Lumos shows the path in wizard world and so does the 'ls' command in linux world, 'ls' does directory listing.
+
+So typing 'lumos' into terminal will display the files and folders in the current working directory.
+
+Usage : $ lumos
+
+Cheers!
+
+author: gabru-md

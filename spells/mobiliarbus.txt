@@ -1,0 +1,9 @@
+Mobiliarbus is the incantation to a charm used to levitate and move plants and trees, as well as the materials made of wood. The Latin term mobilis, meaning "movable" , and arbor means "tree".
+
+It moves objects from one place to another, and so does the 'mv' command in linux world. It moves files and directories from one place to another.
+
+Usage : $ mobiliarbus /path/to/source /path/to/destination
+
+Cheers!
+
+author: gabru-md
