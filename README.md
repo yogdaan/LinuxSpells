@@ -1,5 +1,5 @@
 # LinuxSpells
-[![npm](https://img.shields.io/badge/npm-v0.6.3-brightgreen.svg?style=flat-square)]() [![npm](https://img.shields.io/npm/l/style-flat--squared-express.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells) [![npm](https://img.shields.io/badge/awesome-yes-ff69b4.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells)
+[![npm](https://img.shields.io/badge/npm-v0.7.0-brightgreen.svg?style=flat-square)]() [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells) [![npm](https://img.shields.io/badge/awesome-yes-ff69b4.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells)
 
 Potter-ify your Linux experience!
 
