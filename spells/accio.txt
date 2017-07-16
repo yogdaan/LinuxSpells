@@ -1,0 +1,11 @@
+The Summoning Charm (Accio) was a charm that caused a target at a distance from the caster to levitate or fly over to them. This spell needs thought behind it, the object must be clear in the casters mind, before trying to summon.
+
+This spell is one of the oldest spells known to wizarding society.
+
+Accio 'gets' the object and so does 'wget' in the linux world.
+
+Usage : $ accio LINK
+
+Cheers!
+
+author: gabru-md

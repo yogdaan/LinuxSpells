@@ -1,5 +1,5 @@
 # LinuxSpells
-[![npm](https://img.shields.io/badge/npm-v0.6.3-brightgreen.svg?style=flat-square)]() [![npm](https://img.shields.io/npm/l/style-flat--squared-express.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells) [![npm](https://img.shields.io/badge/awesome-yes-ff69b4.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells)
+[![npm](https://img.shields.io/badge/npm-v0.8.1-brightgreen.svg?style=flat-square)]() [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells) [![npm](https://img.shields.io/badge/awesome-yes-ff69b4.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells)
 
 Potter-ify your Linux experience!
 
@@ -19,14 +19,14 @@ This will install linuxspells globally on your pc.
 $ spells
 ```
 
-![spellsJS](https://github.com/gabru-md/LinuxSpells/blob/master/spells/spellsJS.png?raw=true)
+![spellsJS](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/spellsJS.png?raw=true)
 
 To get info about any spell, type, for eg- lumos:
 
 ```sh
 $ spells lumos
 ```
-![lumosExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/lumos.png?raw=true)
+![lumosExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/lumos.png?raw=true)
 
 
 # Spells Explained
@@ -38,6 +38,7 @@ The spells used in here are:<br>
     * legilimens<br>
     * mobiliarbus<br>
     * avada-kedavra<br>
+    * accio<br>
 
 ## Lumos
 
@@ -73,7 +74,7 @@ Usage : `$ obliviate`
 
 Cheers!
 
-![usage](https://github.com/gabru-md/LinuxSpells/blob/master/spells/lumos_obliviate.png?raw=true)
+![usage](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/lumos_obliviate.png?raw=true)
 ## Legilimens
 
 Legilemency or legilimens is the act of magically navigating through many layers of a person's mind and correctly interpreting one's findings. Muggles often call this as 'mind-reading'.
@@ -104,7 +105,20 @@ Usage : `$ avada-kedavra filename`
 
 Cheers!
 
-![usage](https://github.com/gabru-md/LinuxSpells/blob/master/spells/avada-kedavra.png?raw=true)
+![usage](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/avada-kedavra.png?raw=true)
+
+## Accio
+
+The Summoning Charm (Accio) was a charm that caused a target at a distance from the caster to levitate or fly over to them. This spell needs thought behind it, the object must be clear in the casters mind, before trying to summon.
+
+This spell is one of the oldest spells known to wizarding society.
+
+Accio 'gets' the object and so does 'wget' in the linux world.
+
+Usage : `$ accio LINK`
+
+Cheers!
+
 
 # License
 This Package is licensed under MIT License.
