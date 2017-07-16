@@ -10,13 +10,14 @@
     "legilimens": "legilimens.js",
     "mobiliarbus": "mobiliarbus.js",
     "avada-kedavra": "avada kedavra.js",
-    "spells" : "spells.js"
+    "spells": "spells.js"
   },
   "dependencies": {
     "chalk": "^2.0.1",
     "figlet": "^1.2.0",
     "fs-extra": "^4.0.0",
-    "inquirer": "^3.2.0"
+    "inquirer": "^3.2.0",
+    "terminal-utilities": "^2.3.0"
   },
   "devDependencies": {},
   "scripts": {
