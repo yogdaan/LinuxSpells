@@ -10,7 +10,7 @@ if(process.argv.length != 3){
 else{
 	var fileName = process.argv[2];
 	if(fs.existsSync(fileName)){
-		fs.readFile(path.resolve(__dirname,fileName),function(err,data){
+		fs.readFile(fileName,function(err,data){
 			if(err){
 				return console.log(chalk.red(err));
 			}
