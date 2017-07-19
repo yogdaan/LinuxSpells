@@ -10,7 +10,7 @@
     "legilimens": "legilimens.js",
     "mobiliarbus": "mobiliarbus.js",
     "avada-kedavra": "avada kedavra.js",
-    "accio":"accio.js",
+    "accio": "accio.js",
     "spells": "spells.js"
   },
   "dependencies": {
@@ -18,11 +18,12 @@
     "figlet": "^1.2.0",
     "fs-extra": "^4.0.0",
     "inquirer": "^3.2.0",
-    "terminal-utilities": "^2.3.0"
+    "terminal-utilities": "^2.3.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node preinstall.js"
   },
   "repository": {
     "type": "git",
