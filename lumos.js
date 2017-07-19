@@ -15,27 +15,45 @@ var columns = process.stdout.columns;
 
 fs.readdir(cwd, function(err, items) {
 
+    var max = getMaxLength(items);
+    var div = Math.floor(columns / max);
+    
     for (var i=0; i<items.length; i++) {
 
 
-        if(i % 3 == 0 && i != 0){
+        if(i % div == 0 && i != 0){
             console.log('');
         }
         if(!path.extname(items[i])){
 
-            process.stdout.write(chalk.blue.bold(items[i] + "\t"));
+            process.stdout.write(chalk.blue.bold(items[i]));
+            for(var j = items[i].length; j <= max; j++){
+                process.stdout.write(" ");
+            }
         }
         else if(checkImg(path.extname(items[i]))){
-            process.stdout.write(chalk.magenta.bold(items[i] + "\t"));
+            process.stdout.write(chalk.magenta.bold(items[i]));
+            for(var j = items[i].length; j <= max; j++){
+                process.stdout.write(" ");
+            }
         }
         else if(checkZip(path.extname(items[i]))){
-            process.stdout.write(chalk.red.bold(items[i] + "\t"));
+            process.stdout.write(chalk.red.bold(items[i]));
+            for(var j = items[i].length; j <= max; j++){
+                process.stdout.write(" ");
+            }
         }
         else if(checkCode(path.extname(items[i]))){
-            process.stdout.write(chalk.yellow.bold(items[i] + "\t"));
+            process.stdout.write(chalk.yellow.bold(items[i]));
+            for(var j = items[i].length; j <= max; j++){
+                process.stdout.write(" ");
+            }
         }
         else{
-            process.stdout.write(items[i] + "\t");
+            process.stdout.write(items[i]);
+            for(var j = items[i].length; j <= max; j++){
+                process.stdout.write(" ");
+            }
         }
 
     }
@@ -44,6 +62,17 @@ fs.readdir(cwd, function(err, items) {
 
 });
  
+
+function getMaxLength(items){
+    var max = 0;
+    for(var i = 0; i< items.length ; i++){
+        if(items[i].length > max){
+            max = items[i].length;
+        }
+    }
+
+    return max;
+}
 
 
 // Checking Functions
