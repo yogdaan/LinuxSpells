@@ -22,7 +22,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha"
+    "test": "spells"
   },
   "repository": {
     "type": "git",
