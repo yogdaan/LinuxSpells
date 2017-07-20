@@ -1,8 +1,6 @@
 var exec = require('child_process').exec;
 var spawn = require('child_process').spawn;
 var readline = require('readline');
-var terminal = require('terminal-utilities');
-var chalk = require('chalk');
 
 var rl = readline.createInterface({
 	input: process.stdin,
@@ -11,7 +9,7 @@ var rl = readline.createInterface({
 
 exec('which wget', function(err,stdout,stderr){
 	if(err){
-		console.log(chalk.redBright('An unknown error occurred'));
+		console.log('An unknown error occurred');
 		process.exit(1)
 	}
 	if(!stdout){
@@ -28,10 +26,10 @@ exec('which wget', function(err,stdout,stderr){
 					if (answer.match(/^y/i)){
 						var installation = spawn('sudo', ['apt-get', 'install', 'wget', '-y'])
 						installation.stdout.on('data', function(data){
-							terminal.write(data);
+							process.stdout.write(data);
 						});
 						installation.stderr.on('data', function(data){
- 							terminal.write(data);
+ 							process.stdout.write(data);
 						});
 						installation.on('close', function(code){
 							console.log('wget installed successfully');
