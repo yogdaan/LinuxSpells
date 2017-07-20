@@ -33,7 +33,7 @@ exec('which wget', function(err,stdout,stderr){
  							terminal.write(data);
 						});
 						installation.on('close', function(code){
-							terminal.write('wget installed successfully');
+							console.log('wget installed successfully');
 						});
 					}
 				});
