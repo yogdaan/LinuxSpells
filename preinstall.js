@@ -8,16 +8,16 @@ var rl = readline.createInterface({
 	output: process.stdout
 });
 
-exec("which wget", function(err,stdout,stderr){
+exec('which wget', function(err,stdout,stderr){
 	if(err){
 		console.log(chalk.redBright('An unknown error occurred'));
 		process.exit(1)
 	}
 	if(stdout){
 		console.log('wget is required to install this module');
-		exec("which apt-get", function(err,stdout,stderr){
+		exec('which apt-get', function(err,stdout,stderr){
 			if(stdout){
-				console.log('Automatic installation isn't supported on your system');
+				console.log('Automatic installation isn\'t supported on your system');
 				console.log('Please install wget using your package manager');
 				process.exit(1)
 			}else{
