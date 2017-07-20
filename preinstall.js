@@ -35,6 +35,7 @@ exec('which wget', function(err,stdout,stderr){
 						});
 						installation.on('close', function(code){
 							console.log('wget installed successfully');
+							process.exit(0);
 						});
 					}
 				});
