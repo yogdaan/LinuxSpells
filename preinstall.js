@@ -41,3 +41,5 @@ exec('which wget', function(err,stdout,stderr){
 		});
 	}
 });
+;
+process.exit(0)
