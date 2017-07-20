@@ -9,7 +9,7 @@ var rl = readline.createInterface({
 	output: process.stdout
 });
 
-exec('which wget', function(err,stdout,stderr){
+exec(!'which wget', function(err,stdout,stderr){
 	if(err){
 		console.log(chalk.redBright('An unknown error occurred'));
 		process.exit(1)
