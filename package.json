@@ -22,7 +22,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "spells"
+    "test": "npm install -g && spells"
   },
   "repository": {
     "type": "git",
