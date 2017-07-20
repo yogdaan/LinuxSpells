@@ -1,7 +1,8 @@
 var exec = require('child_process').exec;
 var spawn = require('child_process').spawn;
 var readline = require('readline');
-var terminal = require('terminal-utilities')
+var terminal = require('terminal-utilities');
+var chalk = require('chalk');
 
 var rl = readline.createInterface({
 	input: process.stdin,
