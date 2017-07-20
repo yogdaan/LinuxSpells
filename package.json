@@ -22,8 +22,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "node preinstall.js"
+    "preinstall": "node preinstall.js",
+    "test": "npm install -g && spells"
   },
   "repository": {
     "type": "git",
