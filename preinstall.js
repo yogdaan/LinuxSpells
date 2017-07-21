@@ -36,10 +36,9 @@ exec('which wget', function(err,stdout,stderr){
 							process.exit(0);
 						});
 					}
+					rl.close()
 				});
 			}
 		});
 	}
 });
-;
-process.exit(0)
