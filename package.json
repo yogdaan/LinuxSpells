@@ -22,7 +22,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "preinstall": "node preinstall.js",
+    "postinstall": "node postinstall.js",
     "test": "npm install -g && spells"
   },
   "repository": {
