@@ -9,17 +9,14 @@ var rl = readline.createInterface({
 
 exec('which wget', function(err,stdout,stderr){
 	if(err){
-		console.log('An unknown error occurred');
-		process.exit(1)
-	}
-	if(!stdout){
 		console.log('wget is required to install this module');
 		exec('which apt-get', function(err,stdout,stderr){
 			if(!stdout){
 				console.log('Automatic installation isn\'t supported on your system');
 				console.log('Please install wget using your package manager');
 				process.exit(1)
-			}else{
+			}
+			else{
 				console.log('wget can be automatically installed on your system using apt-get');
 				console.log('You may need to enter your password');
 				rl.question('Would you like to install wget? [Y/n]', function(answer){
@@ -29,7 +26,7 @@ exec('which wget', function(err,stdout,stderr){
 							process.stdout.write(data);
 						});
 						installation.stderr.on('data', function(data){
- 							process.stdout.write(data);
+								process.stdout.write(data);
 						});
 						installation.on('close', function(code){
 							console.log('wget installed successfully');
@@ -40,5 +37,7 @@ exec('which wget', function(err,stdout,stderr){
 			}
 		});
 	}
+	else{
+		process.exit(0);
+	}
 });
-process.exit(0);
