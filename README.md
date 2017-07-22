@@ -31,14 +31,14 @@ $ spells lumos
 
 # Spells Explained
 
-The spells used in here are:<br>
-    * lumos<br>
-    * obliviate<br>
-    * geminio<br>
-    * legilimens<br>
-    * mobiliarbus<br>
-    * avada-kedavra<br>
-    * accio<br>
+The spells used in here are:
+  * lumos
+  * obliviate
+  * geminio
+  * legilimens
+  * mobiliarbus
+  * avada-kedavra
+  * accio
 
 ## Lumos
 
