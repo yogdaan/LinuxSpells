@@ -6,9 +6,9 @@ var path = require('path');
 
 var cwd = process.cwd();
 
-var img = ['.jpg','.jpeg','.png','.gif','.bmp','.tif','.svg']
-var zip =['.rar', '.jar', '.zip', '.tar', '.mar', '.iso', '.lz', '.7zip', '.tgz', '.gz', '.bz2']
-var codes = ['.cpp','.c','.py','.html','.js','.css','.java','.csproj','.rb','.pl','.pm','.sh']
+var img = ['.jpg','.jpeg','.png','.gif','.bmp','.tif','.svg'];
+var zip =['.rar', '.jar', '.zip', '.tar', '.mar', '.iso', '.lz', '.7zip', '.tgz', '.gz', '.bz2'];
+var codes = ['.cpp','.c','.py','.html','.js','.css','.java','.csproj','.rb','.pl','.pm','.sh'];
 
 var length = 0;
 var columns = process.stdout.columns;
@@ -33,25 +33,25 @@ fs.readdir(cwd, function(err, items) {
         }
         else if(checkImg(path.extname(items[i]))){
             process.stdout.write(chalk.magenta.bold(items[i]));
-            for(var j = items[i].length; j <= max; j++){
+            for(var j1 = items[i].length; j1 <= max; j1++){
                 process.stdout.write(" ");
             }
         }
         else if(checkZip(path.extname(items[i]))){
             process.stdout.write(chalk.red.bold(items[i]));
-            for(var j = items[i].length; j <= max; j++){
+            for(var j2 = items[i].length; j2 <= max; j2++){
                 process.stdout.write(" ");
             }
         }
         else if(checkCode(path.extname(items[i]))){
             process.stdout.write(chalk.yellow.bold(items[i]));
-            for(var j = items[i].length; j <= max; j++){
+            for(var j3 = items[i].length; j3 <= max; j3++){
                 process.stdout.write(" ");
             }
         }
         else{
             process.stdout.write(items[i]);
-            for(var j = items[i].length; j <= max; j++){
+            for(var j4 = items[i].length; j4 <= max; j4++){
                 process.stdout.write(" ");
             }
         }

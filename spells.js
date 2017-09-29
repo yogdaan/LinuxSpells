@@ -6,7 +6,7 @@ var chalk = require('chalk');
 var fs = require('fs-extra');
 
 
-var bannerHeading = "Linux  Spells"
+var bannerHeading = "Linux  Spells";
 var newSpell = "";
 var spells = ['lumos','obliviate','geminio','legilimens','mobiliarbus','avada-kedavra','accio'];
 
@@ -34,7 +34,7 @@ if(process.argv.length != 3){
 }
 else{
 	
-	var spell = process.argv[2];;
+	var spell = process.argv[2];
 	if(checkSpells(spell)){
 		//console.log(newSpell);
 		if(newSpell === "lumos"){
