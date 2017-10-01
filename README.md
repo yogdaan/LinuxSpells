@@ -119,6 +119,7 @@ Usage : `$ accio LINK`
 
 Cheers!
 
+![accio](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/accio.png?raw=true)
 
 # License
 This Package is licensed under MIT License.
