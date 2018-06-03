@@ -1,6 +1,8 @@
 # LinuxSpells
 [![npm](https://img.shields.io/badge/npm-v0.8.4-brightgreen.svg?style=flat-square)]() [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells) [![npm](https://img.shields.io/badge/awesome-yes-ff69b4.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells) [![Build Status](https://travis-ci.org/gabru-md/LinuxSpells.svg?branch=master)](https://travis-ci.org/gabru-md/LinuxSpells)
 
+[Debian](https://salsa.debian.org/yogdaan-team)
+
 Potter-ify your Linux experience!
 
 Some basic Linux commands changed into Harry potter Spells!
