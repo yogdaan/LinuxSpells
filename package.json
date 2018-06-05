@@ -11,7 +11,8 @@
     "mobiliarbus": "mobiliarbus.js",
     "avada-kedavra": "avada kedavra.js",
     "accio": "accio.js",
-    "spells": "spells.js"
+    "nox": "nox.js",
+    "spells": "spells.js"    
   },
   "dependencies": {
     "chalk": "^2.0.1",

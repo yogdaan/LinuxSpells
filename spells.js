@@ -55,6 +55,9 @@ else{
 		else if(newSpell === "accio"){
 			accio();
 		}
+		else if(newSpell === "nox"){
+			nox();
+		}
 		else{
 			avada_kedavra();
 		}
@@ -224,6 +227,28 @@ function accio(){
 			console.log(chalk.blueBright(data));
 			console.log('');
 			fs.readFile(path.resolve(__dirname,'spells/accio.txt'),function(err,data){
+				if(err){
+					console.log(err);
+				}
+				else{
+					console.log(chalk.white(data));
+				}
+			});
+		}
+	});
+}
+
+function nox(){
+	var head = "nox";
+
+	figlet(head,{font:"Standard"},function(err,data){
+		if(err){
+			return console.log(chalk.red(err));
+		}
+		else{
+			console.log(chalk.whiteBright(data));
+			console.log('');
+			fs.readFile(path.resolve(__dirname,'spells/nox.txt'),function(err,data){
 				if(err){
 					console.log(err);
 				}
