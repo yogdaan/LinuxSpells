@@ -41,6 +41,7 @@ The spells used in here are:
   * mobiliarbus
   * avada-kedavra
   * accio
+  * nox
 
 ## Lumos
 
