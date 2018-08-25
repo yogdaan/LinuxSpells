@@ -41,6 +41,7 @@ The spells used in here are:
   * mobiliarbus
   * avada-kedavra
   * accio
+  * nox
 
 ## Lumos
 
@@ -122,6 +123,18 @@ Usage : `$ accio LINK`
 Cheers!
 
 ![accio](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/accio.png?raw=true)
+
+## Nox 
+	
+Nox is a The Wand-Extinguishing Charm. 
+ 
+It is a spell causes the light at the end of the caster's wand to be extinguished.
+ 
+Typing "nox" in your terminal will make the computer shutdown.
+ 
+Usage : $ nox
+
+Cheers!
 
 # License
 This Package is licensed under MIT License.
