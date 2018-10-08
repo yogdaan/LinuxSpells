@@ -136,6 +136,13 @@ Usage : $ nox
 
 Cheers!
 
+## How to get help for commands
+
+```sh
+$ spells <spell-name>
+```
+![How to Get Help](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/howToGetHelp.gif?raw=true)
+
 # License
 This Package is licensed under MIT License.
 
