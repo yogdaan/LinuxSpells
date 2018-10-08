@@ -12,6 +12,14 @@ else{
 	var destination = process.argv[3];
 
 	if(fs.existsSync(source)){
+		const srcStats = fs.statSync(source);
+		const destStats = fs.statSync(destination);
+
+		if (srcStats.isFile() && destStats.isDirectory()){
+			const temp = source.split('/');
+			destination += '/' + temp[temp.length - 1];
+		}
+
 		fs.copy(source,destination,err => {
 			if(err){
 				return console.log(err);
