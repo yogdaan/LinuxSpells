@@ -55,7 +55,7 @@ So typing 'lumos' into terminal will display the files and folders in the curren
 
 Usage : `$ lumos`
 
-Cheers!
+**Cheers!**
 
 ## Geminio
 
@@ -65,7 +65,7 @@ It duplicates objects, creating copiesof it and so does the 'cp' command in linu
 
 Usage : `$ geminio /path/to/source /path/to/destination`
 
-Cheers!
+**Cheers!**
 
 ## Obliviate
 
@@ -75,7 +75,7 @@ It makes one forgetful of things or memories and so does the 'clear' command in 
 
 Usage : `$ obliviate`
 
-Cheers!
+**Cheers!**
 
 ![usage](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/lumos_obliviate.png?raw=true)
 ## Legilimens
@@ -86,7 +86,7 @@ It reads what is beneath the flesh of the person in wizard world, and somewhat '
 
 Usage : `$ legilimens filename`
 
-Cheers!
+**Cheers!**
 
 ## Mobiliarbus
 
@@ -96,7 +96,7 @@ It moves objects from one place to another, and so does the 'mv' command in linu
 
 Usage : `$ mobiliarbus /path/to/source /path/to/destination`
 
-Cheers!
+**Cheers!**
 
 ## Avada-Kedavra
 
@@ -106,7 +106,7 @@ It 'deletes' the person or creature from the living world, poof! And so does the
 
 Usage : `$ avada-kedavra filename`
 
-Cheers!
+**Cheers!**
 
 ![usage](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/avada-kedavra.png?raw=true)
 
@@ -120,7 +120,7 @@ Accio 'gets' the object and so does 'wget' in the linux world.
 
 Usage : `$ accio LINK`
 
-Cheers!
+**Cheers!**
 
 ![accio](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/accio.png?raw=true)
 
@@ -134,7 +134,7 @@ Typing "nox" in your terminal will make the computer shutdown.
  
 Usage : $ nox
 
-Cheers!
+**Cheers!**
 
 ## How to get help for commands
 
@@ -150,4 +150,4 @@ This Package is licensed under MIT License.
 [gabru-md](https://github.com/gabru-md)
 
 Type : `$ spells SPELL_NAME` to get information regarding any spell.
-Cheers!
+**Cheers!**
