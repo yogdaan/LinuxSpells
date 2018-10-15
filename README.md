@@ -1,5 +1,5 @@
 # LinuxSpells
-[![npm](https://img.shields.io/badge/npm-v0.8.4-brightgreen.svg?style=flat-square)]() [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells) [![npm](https://img.shields.io/badge/awesome-yes-ff69b4.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells) [![Build Status](https://travis-ci.org/gabru-md/LinuxSpells.svg?branch=master)](https://travis-ci.org/gabru-md/LinuxSpells)
+[![npm](https://img.shields.io/badge/npm-v0.8.4-brightgreen.svg?style=flat-square)]() [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells) [![npm](https://img.shields.io/badge/awesome-yes-ff69b4.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells) [![Build Status](https://travis-ci.org/jringram/LinuxSpells.svg?branch=master)](https://travis-ci.org/jringram/LinuxSpells)
 
 [Debian](https://salsa.debian.org/yogdaan-team)
 
@@ -21,14 +21,14 @@ This will install linuxspells globally on your pc.
 $ spells
 ```
 
-![spellsJS](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/spellsJS.png?raw=true)
+![spellsJS](https://github.com/jringram/LinuxSpells/blob/master/spells/images/spellsJS.png?raw=true)
 
 To get info about any spell, type, for eg- lumos:
 
 ```sh
 $ spells lumos
 ```
-![lumosExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/lumos.png?raw=true)
+![lumosExample](https://github.com/jringram/LinuxSpells/blob/master/spells/images/lumos.png?raw=true)
 
 
 # Spells Explained
@@ -57,7 +57,7 @@ Usage : `$ lumos`
 
 **Cheers!**
 
-![lumosExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/lumos.png?raw=true)
+![lumosExample](https://github.com/jringram/LinuxSpells/blob/master/spells/images/lumos.png?raw=true)
 
 ## Geminio
 
@@ -68,7 +68,7 @@ It duplicates objects, creating copiesof it and so does the 'cp' command in linu
 Usage : `$ geminio /path/to/source /path/to/destination`
 
 **Cheers!**
-![geminioExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/geminio.png?raw=true)
+![geminioExample](https://github.com/jringram/LinuxSpells/blob/master/spells/images/geminio.png?raw=true)
 
 ## Obliviate
 
@@ -80,7 +80,7 @@ Usage : `$ obliviate`
 
 **Cheers!**
 
-![obliviateExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/obliviate.png?raw=true)
+![obliviateExample](https://github.com/jringram/LinuxSpells/blob/master/spells/images/obliviate.png?raw=true)
 ## Legilimens
 
 Legilemency or legilimens is the act of magically navigating through many layers of a person's mind and correctly interpreting one's findings. Muggles often call this as 'mind-reading'.
@@ -91,7 +91,7 @@ Usage : `$ legilimens filename`
 
 **Cheers!**
 
-![legilimensExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/legilimens.png?raw=true)
+![legilimensExample](https://github.com/jringram/LinuxSpells/blob/master/spells/images/legilimens.png?raw=true)
 
 ## Mobiliarbus
 
@@ -103,7 +103,7 @@ Usage : `$ mobiliarbus /path/to/source /path/to/destination`
 
 **Cheers!**
 
-![mobiliarbusExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/mobiliarbus.png?raw=true)
+![mobiliarbusExample](https://github.com/jringram/LinuxSpells/blob/master/spells/images/mobiliarbus.png?raw=true)
 
 ## Avada-Kedavra
 
@@ -115,7 +115,7 @@ Usage : `$ avada-kedavra filename`
 
 **Cheers!**
 
-![avada-KedavraExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/avada-kedavra.png?raw=true)
+![avada-KedavraExample](https://github.com/jringram/LinuxSpells/blob/master/spells/images/avada-kedavra.png?raw=true)
 
 ## Accio
 
@@ -129,7 +129,7 @@ Usage : `$ accio LINK`
 
 **Cheers!**
 
-![accioExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/accio.png?raw=true)
+![accioExample](https://github.com/jringram/LinuxSpells/blob/master/spells/images/accio.png?raw=true)
 
 ## Nox 
 	
@@ -154,7 +154,7 @@ $ spells <spell-name>
 This Package is licensed under MIT License.
 
 # Author
-[gabru-md](https://github.com/gabru-md)
+[jringram](https://github.com/gabru-md)
 
 Type : `$ spells SPELL_NAME` to get information regarding any spell.
 **Cheers!**
