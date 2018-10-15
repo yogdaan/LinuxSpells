@@ -34,14 +34,14 @@ $ spells lumos
 # Spells Explained
 
 The spells used in here are:
-  * lumos
-  * obliviate
-  * geminio
-  * legilimens
-  * mobiliarbus
-  * avada-kedavra
-  * accio
-  * nox
+  * [lumos](#Lumos)
+  * [obliviate](#Obliviate)
+  * [geminio](#Geminio)
+  * [legilimens](#Legilimens)
+  * [mobiliarbus](#Mobiliarbus)
+  * [avada-kedavra](#Avada-Kedavra)
+  * [accio](Accio)
+  * [nox](#Nox)
 
 ## Lumos
 
@@ -49,7 +49,7 @@ Lumos is the incantation to a charm that can be used to produce a flash of brigh
 This light can be thrown far off of the wand, illuminating the surrounding area for several minutes
 after its initial casting before darkening once more.
 
-Lumos shows the path in wizard world and so does the 'ls' command in linux world, 'ls' does directory listing.
+Lumos shows the path in wizard world and so does the 'ls' command in linux world. 'ls' does directory listing.
 
 So typing 'lumos' into terminal will display the files and folders in the current working directory.
 
@@ -61,7 +61,7 @@ Usage : `$ lumos`
 
 The Geminio Curse or Doubling Charm(Geminio) is a spell used to duplicate an object. It can also be used to bewitch an object into multiplying repeatedly when touched, though how one would produce the latter effect is still unknown.
 
-It duplicates objects, creating copiesof it and so does the 'cp' command in linux terminal, It copies files/directories in linux terminal.
+It duplicates objects, creating copies of it and so does the 'cp' command in linux terminal. It copies files/directories in linux terminal.
 
 Usage : `$ geminio /path/to/source /path/to/destination`
 
@@ -69,9 +69,9 @@ Usage : `$ geminio /path/to/source /path/to/destination`
 
 ## Obliviate
 
-Originating from Harry Potter and the Chamber of Secrets, Obliviate is a term meaning 'forget'. Obliviate is a memory charm, resulting in the erasure of the recipients memory. One's memory vanishes as soon as this charm is casted.
+Originating from "Harry Potter and the Chamber of Secrets", Obliviate is a term meaning 'forget'. Obliviate is a memory charm, resulting in the erasure of the recipients memory. One's memory vanishes as soon as this charm is casted.
 
-It makes one forgetful of things or memories and so does the 'clear' command in linux terminal, It clears the output screen or 'obliviates' it :P
+It makes one forgetful of things or memories and so does the 'clear' command in linux terminal. It clears the output screen or 'obliviates' it :P
 
 Usage : `$ obliviate`
 
@@ -124,14 +124,14 @@ Usage : `$ accio LINK`
 
 ![accio](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/accio.png?raw=true)
 
-## Nox 
-	
-Nox is a The Wand-Extinguishing Charm. 
- 
+## Nox
+
+Nox is a The Wand-Extinguishing Charm.
+
 It is a spell causes the light at the end of the caster's wand to be extinguished.
- 
+
 Typing "nox" in your terminal will make the computer shutdown.
- 
+
 Usage : $ nox
 
 **Cheers!**
