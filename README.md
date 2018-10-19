@@ -57,6 +57,8 @@ Usage : `$ lumos`
 
 **Cheers!**
 
+![lumosExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/lumos.png?raw=true)
+
 ## Geminio
 
 The Geminio Curse or Doubling Charm(Geminio) is a spell used to duplicate an object. It can also be used to bewitch an object into multiplying repeatedly when touched, though how one would produce the latter effect is still unknown.
@@ -66,6 +68,7 @@ It duplicates objects, creating copiesof it and so does the 'cp' command in linu
 Usage : `$ geminio /path/to/source /path/to/destination`
 
 **Cheers!**
+![geminioExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/geminio.png?raw=true)
 
 ## Obliviate
 
@@ -77,7 +80,7 @@ Usage : `$ obliviate`
 
 **Cheers!**
 
-![usage](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/lumos_obliviate.png?raw=true)
+![obliviateExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/obliviate.png?raw=true)
 ## Legilimens
 
 Legilemency or legilimens is the act of magically navigating through many layers of a person's mind and correctly interpreting one's findings. Muggles often call this as 'mind-reading'.
@@ -87,6 +90,8 @@ It reads what is beneath the flesh of the person in wizard world, and somewhat '
 Usage : `$ legilimens filename`
 
 **Cheers!**
+
+![legilimensExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/legilimens.png?raw=true)
 
 ## Mobiliarbus
 
@@ -98,6 +103,8 @@ Usage : `$ mobiliarbus /path/to/source /path/to/destination`
 
 **Cheers!**
 
+![mobiliarbusExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/mobiliarbus.png?raw=true)
+
 ## Avada-Kedavra
 
 The Killing Curse (Avada Kedavra) is a tool of the Dark Arts and one of the three Unforgivable Curses. It is one of the most powerful and sinister spells known to wizardkind. When cast successfully on a living person or creature the curse causes instantaneous and painless death, without any signs of violence on body.
@@ -108,7 +115,7 @@ Usage : `$ avada-kedavra filename`
 
 **Cheers!**
 
-![usage](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/avada-kedavra.png?raw=true)
+![avada-KedavraExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/avada-kedavra.png?raw=true)
 
 ## Accio
 
@@ -122,7 +129,7 @@ Usage : `$ accio LINK`
 
 **Cheers!**
 
-![accio](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/accio.png?raw=true)
+![accioExample](https://github.com/gabru-md/LinuxSpells/blob/master/spells/images/accio.png?raw=true)
 
 ## Nox 
 	
