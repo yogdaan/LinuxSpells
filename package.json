@@ -12,13 +12,14 @@
     "avada-kedavra": "avada kedavra.js",
     "accio": "accio.js",
     "nox": "nox.js",
-    "spells": "spells.js"    
+    "spells": "spells.js"
   },
   "dependencies": {
     "chalk": "^2.0.1",
     "figlet": "^1.2.0",
     "fs-extra": "^4.0.0",
     "inquirer": "^3.2.0",
+    "lodash": "^4.17.11",
     "terminal-utilities": "^2.3.2"
   },
   "devDependencies": {
