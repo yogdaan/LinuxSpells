@@ -5,7 +5,7 @@ var chalk = require('chalk');
 var path = require('path');
 
 if(process.argv.length != 3){
-	return console.log(chalk.red('IndesError: Index out of range'));
+	return console.log(chalk.red('IndexError: Index out of range'));
 }
 else{
 	var ff = process.argv[2]; // ff is file/folder
