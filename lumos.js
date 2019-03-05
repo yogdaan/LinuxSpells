@@ -8,7 +8,7 @@ var cwd = process.cwd();
 
 var img = ['.jpg','.jpeg','.png','.gif','.bmp','.tif','.svg'];
 var zip =['.rar', '.jar', '.zip', '.tar', '.mar', '.iso', '.lz', '.7zip', '.tgz', '.gz', '.bz2'];
-var codes = ['.cpp','.c','.py','.html','.js','.css','.java','.csproj','.rb','.pl','.pm','.sh'];
+var codes = ['.cpp','.c','.py','.html','.js','.css','.java','.csproj','.rb','.pl','.pm','.sh', '.kt'];
 
 var length = 0;
 var columns = process.stdout.columns;
