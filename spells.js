@@ -8,7 +8,7 @@ var fs = require('fs-extra');
 
 var bannerHeading = "Linux  Spells";
 var newSpell = "";
-var spells = ['lumos','obliviate','geminio','legilimens','mobiliarbus','avada-kedavra','accio'];
+var spells = ['lumos','obliviate','geminio','legilimens','mobiliarbus','avada-kedavra','accio', 'reducio'];
 
 if(process.argv.length != 3){
 
