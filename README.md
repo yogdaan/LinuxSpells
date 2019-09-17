@@ -42,6 +42,7 @@ The spells used in here are:
   * [avada-kedavra](#avada-kedavra)
   * [accio](#accio)
   * [nox](#nox)
+  * [reducio](#reducio)
 
 ## <a id="lumos"></a>Lumos
 
@@ -133,6 +134,16 @@ It is a spell causes the light at the end of the caster's wand to be extinguishe
 Typing "nox" in your terminal will make the computer shutdown.
 
 Usage : $ nox
+
+**Cheers**
+
+## <a id="reducio"></a>Reducio
+
+Seen originally in "Harry Potter and the Goblet of Fire", Reducio basically means 'to reduce/shrink'. Reducio is a shrinking charm, resulting in the reduction of target's shape as soon as it is cast.
+
+It makes things smaller, as does the 'tar' command in linux, since it compresses or shrinks files :P
+
+Usage: `$ reducio /path/to/source1 /path/to/source2 ... /path/to/source-N /path/to/destination`
 
 **Cheers!**
 

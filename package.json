@@ -12,6 +12,7 @@
     "avada-kedavra": "avada kedavra.js",
     "accio": "accio.js",
     "nox": "nox.js",
+    "reducio": "reducio.js",
     "spells": "spells.js"
   },
   "dependencies": {
@@ -20,6 +21,7 @@
     "fs-extra": "^4.0.0",
     "inquirer": "^3.2.0",
     "lodash": "^4.17.11",
+    "tar": "^4.4.10",
     "terminal-utilities": "^2.3.2"
   },
   "devDependencies": {

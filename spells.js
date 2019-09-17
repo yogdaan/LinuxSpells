@@ -28,6 +28,7 @@ if(process.argv.length != 3){
 			console.log(chalk.redBright.bold('\t5.\tmobiliarbus'));
 			console.log(chalk.greenBright.bold('\t6.\tavada-kedavra'));
 			console.log(chalk.yellowBright.bold('\t7.\taccio'));
+			console.log(chalk.yellowBright.bold('\t8.\treducio'));
 			console.log('');
 		}
 	});
@@ -57,6 +58,9 @@ else{
 		}
 		else if(newSpell === "nox"){
 			nox();
+		}
+		else if(newSpell === "reducio"){
+			reducio();
 		}
 		else{
 			avada_kedavra();
@@ -249,6 +253,28 @@ function nox(){
 			console.log(chalk.whiteBright(data));
 			console.log('');
 			fs.readFile(path.resolve(__dirname,'spells/nox.txt'),function(err,data){
+				if(err){
+					console.log(err);
+				}
+				else{
+					console.log(chalk.white(data));
+				}
+			});
+		}
+	});
+}
+
+function reducio(){
+	var head = "reducio";
+
+	figlet(head,{font:"Standard"},function(err,data){
+		if(err){
+			return console.log(chalk.red(err));
+		}
+		else{
+			console.log(chalk.whiteBright(data));
+			console.log('');
+			fs.readFile(path.resolve(__dirname,'spells/reducio.txt'),function(err,data){
 				if(err){
 					console.log(err);
 				}
