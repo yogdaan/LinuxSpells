@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var tar=require('tar');
-var chalk=require('chalk')
+var chalk=require('chalk');
 var fs = require('fs-extra');
 
 if(process.argv.length < 4){
@@ -18,7 +18,7 @@ else{
 	var destination=destination.split("/");
 	
 	if(destination.length != 1){
-		var filename = destination.pop()
+		var filename = destination.pop();
 		destination = destination.join("/");
 		
 		if (!fs.existsSync(destination)){
