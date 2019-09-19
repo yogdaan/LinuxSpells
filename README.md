@@ -1,3 +1,4 @@
+
 # LinuxSpells
 [![npm](https://img.shields.io/badge/npm-v0.8.4-brightgreen.svg?style=flat-square)]() [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells) [![npm](https://img.shields.io/badge/awesome-yes-ff69b4.svg?style=flat-square)](https://www.npmjs.com/package/linuxspells) [![Build Status](https://travis-ci.org/gabru-md/LinuxSpells.svg?branch=master)](https://travis-ci.org/gabru-md/LinuxSpells)
 
@@ -42,6 +43,7 @@ The spells used in here are:
   * [avada-kedavra](#avada-kedavra)
   * [accio](#accio)
   * [nox](#nox)
+  * [reducio](#reducio)
 
 ## <a id="lumos"></a>Lumos
 
@@ -134,7 +136,19 @@ Typing "nox" in your terminal will make the computer shutdown.
 
 Usage : $ nox
 
+**Cheers**
+
+## <a id="reducio"></a>Reducio
+
+Seen originally in "Harry Potter and the Goblet of Fire", Reducio basically means 'to reduce/shrink'. Reducio is a shrinking charm, resulting in the reduction of target's shape as soon as it is cast.
+
+It makes things smaller, as does the 'tar' command in linux, since it compresses or shrinks files :P
+
+Usage: `$ reducio /path/to/source1 /path/to/source2 ... /path/to/source-N /path/to/destination`
+
 **Cheers!**
+
+![reducio](https://user-images.githubusercontent.com/25523604/65079575-1ec84b00-d9bd-11e9-8834-ba4510d5fe89.png)
 
 ## How to get help for commands
 
