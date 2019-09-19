@@ -6,4 +6,4 @@ Usage : $ nox
 
 Cheers!
 
-author - Anantha Vijay
+author: Anantha Vijay
