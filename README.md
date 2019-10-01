@@ -14,7 +14,7 @@ Some basic Linux commands changed into Harry potter Spells!
 $ sudo npm install linuxspells -g
 ```
 
-This will install linuxspells globally on your pc.
+This will install LinuxSpells globally on your pc.
 
 ### Spells.js
 
@@ -63,7 +63,7 @@ Usage : `$ lumos`
 
 The Geminio Curse or Doubling Charm(Geminio) is a spell used to duplicate an object. It can also be used to bewitch an object into multiplying repeatedly when touched, though how one would produce the latter effect is still unknown.
 
-It duplicates objects, creating copies of it and so does the 'cp' command in linux terminal. It copies files/directories in linux terminal.
+It duplicates objects i.e. creates copies of its own and so does the 'cp' command in linux terminal. It copies files/directories in linux terminal.
 
 Usage : `$ geminio /path/to/source /path/to/destination`
 
@@ -71,7 +71,7 @@ Usage : `$ geminio /path/to/source /path/to/destination`
 
 ## <a id="obliviate"></a>Obliviate
 
-Originating from "Harry Potter and the Chamber of Secrets", Obliviate is a term meaning 'forget'. Obliviate is a memory charm, resulting in the erasure of the recipients memory. One's memory vanishes as soon as this charm is casted.
+Originating from "Harry Potter and the Chamber of Secrets", Obliviate is a term meaning 'forget'. Obliviate is a memory charm, resulting in the erasure of the recipient's memory. One's memory vanishes as soon as this charm is casted.
 
 It makes one forgetful of things or memories and so does the 'clear' command in linux terminal. It clears the output screen or 'obliviates' it :P
 
@@ -114,7 +114,7 @@ Usage : `$ avada-kedavra filename`
 
 ## <a id="accio"></a>Accio
 
-The Summoning Charm (Accio) was a charm that caused a target at a distance from the caster to levitate or fly over to them. This spell needs thought behind it, the object must be clear in the casters mind, before trying to summon.
+The Summoning Charm (Accio) was a charm that caused a target at a distance from the caster to levitate or fly over to them. This spell needs thought behind it, the object must be clear in the caster's mind before trying to summon.
 
 This spell is one of the oldest spells known to wizarding society.
 
@@ -130,7 +130,7 @@ Usage : `$ accio LINK`
 
 Nox is a The Wand-Extinguishing Charm.
 
-It is a spell causes the light at the end of the caster's wand to be extinguished.
+It is a spell which causes the light at the end of the caster's wand to be extinguished.
 
 Typing "nox" in your terminal will make the computer shutdown.
 
