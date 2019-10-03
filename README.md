@@ -134,7 +134,7 @@ It is a spell causes the light at the end of the caster's wand to be extinguishe
 
 Typing "nox" in your terminal will make the computer shutdown.
 
-Usage : $ nox
+Usage : `$ nox`
 
 **Cheers**
 
